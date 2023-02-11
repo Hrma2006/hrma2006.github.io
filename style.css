@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 1 auto;
+    font-family:'Fira sans',sans-serif ;
+}
+body{
+    margin: 0;
+    padding: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    min-height: 100vh;
+    background-color: white;
+    transition: 0.6s;
+}
+#button{
+    font-size: large;
+    color:white;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 3rem;
+    width: 15rem;
+    height: 5rem;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+
+
